@@ -11,6 +11,14 @@ public class Main extends JFrame implements ActionListener {
    Main(){
        setSize(800,500);
 
+	//Adding a background image
+ 	ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("images/first.jpg"));
+       Image i3  = i1.getImage().getScaledInstance(800,500,Image.SCALE_SMOOTH);
+       ImageIcon i4 = new ImageIcon(i3);
+       JLabel i2 = new JLabel(i4);
+       i2.setBounds(0,0,800,500);
+       add(i2);
+
        l1 = new JLabel("Student Monitoring System");
        l1.setBounds(150,10,500,100);
        l1.setFont(new Font("Tahoma", Font.BOLD, 34));
