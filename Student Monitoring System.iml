@@ -25,7 +25,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Desktop/lib/rs2xml.jar!/" />
@@ -34,6 +34,15 @@
         <SOURCES>
           <root url="jar://$USER_HOME$/Desktop/lib/rs2xml.jar!/src" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/lib/jcalendar-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
