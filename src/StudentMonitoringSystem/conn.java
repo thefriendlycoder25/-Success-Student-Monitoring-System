@@ -5,7 +5,7 @@ public class conn {
     Connection c;
     Statement s;
     conn(){
-        String url = "jdbc:mysql://localhost:3306/sms1";
+        String url = "jdbc:mysql://localhost:3306/studmonsys";
         String username = "root";
         String password = "12345678";
         try{
