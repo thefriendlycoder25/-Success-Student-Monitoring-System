@@ -6,7 +6,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.Format;
 import java.text.SimpleDateFormat;
 
 public class addDetails extends JFrame implements ActionListener {
@@ -137,7 +136,7 @@ public class addDetails extends JFrame implements ActionListener {
                 gender = "Female";
             }
 
-            SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-YYYY");
+            SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
             String dob = dateFormat.format(this.dob.getDate());
 
 //            System.out.println(name);
